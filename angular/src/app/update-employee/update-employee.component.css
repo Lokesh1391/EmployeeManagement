@@ -1,0 +1,31 @@
+.updateinput{
+    margin-left: 30px;
+   
+}
+
+.updateinput input{
+    height: 40px;
+    /* padding-right: 120px; */
+    width: 580px;
+    border-radius: 15px;
+    border-style: none;
+    border-bottom-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding-left: 20px;
+}
+
+.buttonblock{
+    /* text-align: right; */
+    justify-content: right;
+   margin-right: 30px;
+}
+
+#container{
+    border-radius: 25px;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */  
+    
+}
+
+h1{
+    filter: drop-shadow(0 0 0.75rem rgb(35, 60, 80));
+}

@@ -1,0 +1,24 @@
+
+<div id="container">
+<h1 mat-dialog-title><b><i>Edit Student </i> </b></h1>
+<div class="updateinput">
+   <input type="text" [(ngModel)]="employeeName" placeholder="Employee Name"> 
+   <br><br>
+   <input type="text" [(ngModel)]="mobile" placeholder="Mobile">
+   <br><br>
+   <input type="text" [(ngModel)]="address" placeholder="Address">
+   <br><br>
+   <input type="text" [(ngModel)]="employeeCode" placeholder="Employee code">
+   <br><br>
+   <input type="text" [(ngModel)]="department" placeholder="Department">
+   <br><br>
+   <input type="text" [(ngModel)]="designation" placeholder="Designation">
+   <br><br>
+   <input type="text" [(ngModel)]="email" placeholder="Email">
+   <br>
+</div>
+<div mat-dialog-actions class="buttonblock">
+    <button type="button" class="btn btn-warning" (click)="onNoClick()">Cancel</button>&nbsp;&nbsp;&nbsp;
+    <button type="button" class="btn btn-primary" (click)="openDialog()">Update</button> 
+</div>
+</div>
